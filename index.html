@@ -11,7 +11,53 @@
   <body>
     <!-- Inizio header -->
     <header>
-
+        <!-- Divisione navbar fixed -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <!-- Logo del sito-->
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="Logo di Pinco Pallo">
+                </a>
+              <!-- Bottone a comparsa su dispositivo mobile -->
+                <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+              <!-- div che collassa a viewport < lg -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-info text-uppercase" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-info text-uppercase" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-info text-uppercase" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-info text-uppercase" href="#contact-me">Contact me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+          <!-- Fine navbar -->
+          <!-- Sezione del profilo -->
+          <section class="bg-info">
+            <div class="text-center mt-5 py-5">
+                <h2>Pinco Pallo</h2>
+                <img class="w-25 d-inline-block" src="img/profile_pic.svg" alt="Immagine profilo di Pinco Pallo">
+                <p class="small text-uppercase text-secondary bold">Web Designer</p>
+            </div>
+        </section>
     </header>
     <!-- Fine header -->
     <!-- Inizio main -->
